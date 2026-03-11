@@ -398,7 +398,7 @@ export default function App() {
   // STT State
   const [sttEnabled, setSttEnabled] = useState(true);
   const [remoteSttText, setRemoteSttText] = useState('');
-  const [remoteSttTimer, setRemoteSttTimer] = useState(null);
+  const remoteSttTimerRef = useRef(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
   const wsRef = useRef(null);
@@ -900,11 +900,11 @@ export default function App() {
 
     if (message.type === 'stt') {
       setRemoteSttText(message.text || '');
-      if (remoteSttTimer) clearTimeout(remoteSttTimer);
+      if (remoteSttTimerRef.current) clearTimeout(remoteSttTimerRef.current);
       const timer = setTimeout(() => {
         setRemoteSttText('');
       }, 3000);
-      setRemoteSttTimer(timer);
+      remoteSttTimerRef.current = timer;
       return;
     }
 
