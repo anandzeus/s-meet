@@ -1,5 +1,6 @@
 import os
 import pickle
+import urllib.request
 from typing import List, Dict
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -15,8 +16,21 @@ app.add_middleware(
 
 ALPHA_MODEL = None
 model_load_error = None
+
+# Fallback: Download from GitHub if Render didn't pull the LFS object
+MODEL_URL = "https://media.githubusercontent.com/media/anandzeus/s-meet/main/asl_server/sign_language_model.p"
+MODEL_PATH = "sign_language_model.p"
+
+if not os.path.exists(MODEL_PATH) or os.path.getsize(MODEL_PATH) < 1000000:
+    print(f"Downloading model directly from LFS to bypass Render limitations...")
+    try:
+        urllib.request.urlretrieve(MODEL_URL, MODEL_PATH)
+        print("Download complete.")
+    except Exception as e:
+        print(f"Error downloading model: {e}")
+
 try:
-    with open('sign_language_model.p', 'rb') as f:
+    with open(MODEL_PATH, 'rb') as f:
         ALPHA_MODEL = pickle.load(f)
 except Exception as exc:
     print(f"Failed to load alpha model: {exc}")
