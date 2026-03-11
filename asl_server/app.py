@@ -14,17 +14,20 @@ app.add_middleware(
 )
 
 ALPHA_MODEL = None
+model_load_error = None
 try:
     with open('sign_language_model.p', 'rb') as f:
         ALPHA_MODEL = pickle.load(f)
 except Exception as exc:
     print(f"Failed to load alpha model: {exc}")
+    model_load_error = str(exc)
 
 @app.get("/health")
 async def health():
     return {
         "ok": True,
-        "alpha_model_loaded": ALPHA_MODEL is not None
+        "alpha_model_loaded": ALPHA_MODEL is not None,
+        "error": model_load_error
     }
 
 class AlphaPredictRequest(BaseModel):
