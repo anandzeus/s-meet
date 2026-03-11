@@ -1,0 +1,5 @@
+
+> ai-call-server@0.1.0 dev
+> node server.js
+
+Signaling server listening on http://0.0.0.0:3001

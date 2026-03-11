@@ -1,0 +1,1848 @@
+/Users/zeus/Desktop/appach/asl_server/.venv/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.7.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/Users/zeus/Desktop/appach/asl_server/.venv/lib/python3.9/site-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.7.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+INFO:     Started server process [87396]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 48] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Started server process [92258]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55744 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55773 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55779 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "OPTIONS /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55782 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55783 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     Started server process [93627]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:55810 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55825 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55824 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "OPTIONS /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55856 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55857 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55856 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55873 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55894 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55900 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55890 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55900 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55941 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55931 - "POST /asl/predict HTTP/1.1" 404 Not Found

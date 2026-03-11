@@ -1,0 +1,281 @@
+INFO:     Started server process [82333]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60917 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "OPTIONS /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: sorry
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: hello
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: hello
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: sorry
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: help
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: sorry
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: sign language
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: thankyou
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: sorry
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: thankyou
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: thankyou
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: thankyou
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: thankyou
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60917 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: thankyou
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: thankyou
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: thankyou
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: thankyou
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: thankyou
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60917 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: thankyou
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: house
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: thankyou
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: thankyou
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: house
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: house
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: thankyou
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: please
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: thankyou
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: hello
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: i_love_you
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: B
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: B
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: B
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: B
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: B
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: hello
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: B
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: F
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: F
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: hello
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: hello
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: B
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+Prediction: B
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: B
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+Prediction: Y
+INFO:     127.0.0.1:60938 - "POST /asl/predict_alpha HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60938 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62461 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62461 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62461 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62461 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62461 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62461 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62461 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62461 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62461 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62461 - "POST /asl/predict HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62461 - "POST /asl/predict HTTP/1.1" 404 Not Found

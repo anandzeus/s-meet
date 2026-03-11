@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.DS_Store
+
+package-lock.json
+
+asl_server/weights/
+_py_stubs/
+_tfdf_stub/
+asl_server/sign_language_model.p
+asl_server/.venv/
+asl_server/venv/
+**/__pycache__
